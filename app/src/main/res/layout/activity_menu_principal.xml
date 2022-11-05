@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fondo"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuPrincipal"
+    android:background="#FFF307">
+
+
+    <ImageView
+        android:id="@+id/grado"
+        android:layout_width="256dp"
+        android:layout_height="88dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/sexto" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="106dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        app:srcCompat="@drawable/suma" />
+
+    <ImageView
+        android:id="@+id/actividad2"
+        android:layout_width="181dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toEndOf="@id/actividad1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625"
+        app:srcCompat="@drawable/actividad2" />
+
+    <CheckBox
+        android:id="@+id/actividad4Tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actividad4" />
+
+    <ImageView
+        android:id="@+id/actividad1"
+        android:layout_width="181dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/actividad2"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625"
+        app:srcCompat="@drawable/actividad1" />
+
+    <CheckBox
+        android:id="@+id/actividad2Tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guideline6"
+        app:layout_constraintTop_toBottomOf="@id/actividad2" />
+
+    <ImageView
+        android:id="@+id/actividad4"
+        android:layout_width="181dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toEndOf="@id/actividad3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922"
+        app:srcCompat="@drawable/actividad4" />
+
+    <CheckBox
+        android:id="@+id/actividad1Tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@id/guideline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actividad1" />
+
+    <ImageView
+        android:id="@+id/actividad3"
+        android:layout_width="181dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/actividad4"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923"
+        app:srcCompat="@drawable/actividad3" />
+
+    <CheckBox
+        android:id="@+id/actividad3Tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@id/guideline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actividad3" />
+
+    <ImageView
+        android:id="@+id/raizimg"
+        android:layout_width="106dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413"
+        app:srcCompat="@drawable/raiz" />
+
+    <ImageView
+        android:id="@+id/potenciacionimg"
+        android:layout_width="106dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413"
+        app:srcCompat="@drawable/potenciacion" />
+
+    <ImageView
+        android:id="@+id/divisionimg"
+        android:layout_width="106dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413"
+        app:srcCompat="@drawable/division" />
+
+    <ImageView
+        android:id="@+id/multiplicacionimg"
+        android:layout_width="106dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        app:srcCompat="@drawable/multiplicacion" />
+
+    <ImageView
+        android:id="@+id/restaimg"
+        android:layout_width="106dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        app:srcCompat="@drawable/resta" />
+
+    <CheckBox
+        android:id="@+id/multiplicacionActivar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeTextType="uniform"
+        android:checked="true"
+        android:text="Activar"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.150" />
+
+    <CheckBox
+        android:id="@+id/sumaActivar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeTextType="uniform"
+        android:checked="true"
+        android:text="Activar"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.150" />
+
+    <CheckBox
+        android:id="@+id/restaActivar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeTextType="uniform"
+        android:checked="true"
+        android:text="Activar"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.150" />
+
+    <CheckBox
+        android:id="@+id/potenciaActivar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeTextType="uniform"
+        android:checked="true"
+        android:text="Activar"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <CheckBox
+        android:id="@+id/raizActivar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeTextType="uniform"
+        android:checked="true"
+        android:text="Activar"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <CheckBox
+        android:id="@+id/divisionActivar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeTextType="uniform"
+        android:checked="true"
+        android:text="Activar"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <ImageView
+        android:id="@+id/sumaimg"
+        android:layout_width="106dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        app:srcCompat="@drawable/suma" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="52dp"
+        android:layout_height="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_baseline_settings_24"
+        android:onClick="abrir_configuraciones"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

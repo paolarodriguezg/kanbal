@@ -1,0 +1,266 @@
+<resources>
+    <string name="app_name">Kanbal</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_juego">JuegoActivity</string>
+
+    <string name="go">Empieza!</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silencio</string>
+
+    <string name="pref_title_vibrate">Vibrador</string>
+
+    <string name="score_pop_score">Tuviste %1$d respuestas correctas de %2$d</string>
+    <string name="shark_points">asd</string>
+    <string name="below_average_math_skill">Tu resultado demuestra que tienes dificultad para las matematicas. Sigue practicando</string>
+    <string name="average_math_skill">Estas en el promedio</string>
+    <string name="above_average_math_skill">Estas un poco mas arriba del promedio</string>
+    <string name="exceptional_math_skill">Tu resultado demuestran que eres un genio en matematicas</string>
+    <string name="number_too_low">Responde mas de 20 preguntas para calibrar tu nivel de habilidad. Intenta de nuevo</string>
+    <string name="number_too_low_30">Responde mas de 30 preguntas para calibrar tu nivel de habilidad. Intenta de nuevo</string>
+    <string name="number_too_low_10">Responde mas de 10 preguntas para calibrar tu nivel de habilidad. Intenta de nuevo</string>
+    <string name="score_too_low">Puntaje muy bajo, sigue practicando</string>
+
+
+    <string name="default_time_trials">Empieza!</string>
+    <string name="good_job">Buen trabajo</string>
+    <string name="amazing">Asombroso!</string>
+    <string name="fantastic">Increible!</string>
+    <string name="damn">Muy bien!</string>
+    <string name="genius">Excelente!</string>
+    <string name="sweet">Maravilloso!</string>
+    <string name="crazy">Genial!</string>
+    <string name="keep">Epico!</string>
+    <string name="unbelievable">Lo hiciste bien!</string>
+    <string name="brilliant">Brillante!</string>
+    <string name="surprised">WOW!</string>
+    <string name="bananas">Eres un genio!</string>
+    <string name="on_a_roll">Combo!</string>
+    <string name="ohno">Oh no!</string>
+    <string name="sad">:(</string>
+    <string name="quemal">Que mal!</string>
+    <string name="o_o">O_O</string>
+    <string name="casi">casi</string>
+
+    <string name="punteoespañol">Punteo: %1$d</string>
+    <string name="punteoitza">Puntajej: %1$d</string>
+    <string name="punteoqeqchi">Xtz\'aq: %1$d</string>
+    <string name="title_activity_time_trials_loading_screen">TimeTrialsLoadingScreen</string>
+
+    <string name="color">Tip: Mantente atento a los cambios de colores, estos te indican cuanto tiempo te queda</string>
+    <string name="panic">Tip: No te alarme cuando veas el primer cambio de color, esto indica que has gastado la mitad de tu tiempo aun te queda la otra mitad </string>
+    <string name="wrongs">Tip: Muchos errores al principio? Prueba reiniciando, el juego solo dura 30 segundos de todos modos</string>
+    <string name="time_resets">Tip: El tiempo se resetea cuando respondes una pregunta correctamente</string>
+    <string name="difficulty">Tip: Si se te hace dificil puedes disminuir la dificultad</string>
+    <string name="improve">Tip: Puedes ahorrar tiempo si calculas el ultimo digito y no concuerda con la respuesta en pantalla</string>
+    <string name="friends">Compara tu resultado con el de tus amigos!</string>
+
+    <string name="notime">Hint: Time is not your enemy in Advanced Shark</string>
+    <string name="loading_screen_timer">%1$d</string>
+
+    <string name="time_left_five">10s</string>
+    <string name="time_left">%1$ds</string>
+    <string name="time_left_ten_less">0%1$ds</string>
+
+
+    <string name="tiempoespañol">Tiempo: %1$ds</string>
+    <string name="tiempoitza">K\'iin: %1$ds</string>
+    <string name="tiempoqeqchi">Hoonal: %1$ds</string>
+
+    <string name="tiempodeshabilitadoespañol">Tiempo deshabilitado</string>
+    <string name="tiempodeshabilitadoitza">Wa ma\</string>
+    <string name="tiempodeshabilitadoqeqchi">Chuupkenak li hoonal</string>
+    <string name="tiempodeshabilitadoespañol2">Tiempo \ndeshabilitado</string>
+    <string name="tiempodeshabilitadoitza2">Wa ma\</string>
+    <string name="tiempodeshabilitadoqeqchi2">Chuupkenak \nli hoonal</string>
+
+    <string name="raiz_cuadrada">%1$d\u00B2</string>
+    <string name="raiz_cubica">%1$d\u00B3</string>
+    <string name="numero">%1$d</string>
+    <string name="sqrt">\u221A%1$d</string>
+    <string name="cbrt">\u221B%1$d</string>
+    <string name="zero_score">0 de 0</string>
+    <string name="advanced_score">%1$d de %2$d</string>
+    <string name="triple_suma_modo1">%1$d + %2$d + %3$d = %4$d</string>
+    <string name="triple_suma_modo2">%1$d + %2$d + %3$d</string>
+    <string name="triple_suma_mult_modo1">(%1$d + %2$d) * %3$d = %4$d</string>
+    <string name="triple_suma_mult_modo2">(%1$d + %2$d) * %3$d</string>
+    <string name="triple_suma_div_modo1">(%1$d + %2$d) * %3$d = %4$d</string>
+    <string name="triple_suma_div_modo2">(%1$d + %2$d) * %3$d</string>
+    <string name="triple_resta_mult_modo1">(%1$d + %2$d) * %3$d = %4$d</string>
+    <string name="triple_resta_mult_modo2">(%1$d + %2$d) * %3$d</string>
+    <string name="triple_resta_div_modo1">(%1$d + %2$d) * %3$d = %4$d</string>
+    <string name="triple_resta_div_modo2">(%1$d + %2$d) * %3$d</string>
+
+    <string name="triple_resta_modo1">%1$d - %2$d - %3$d = %4$d</string>
+    <string name="triple_resta_modo2">%1$d - %2$d - %3$d</string>
+    <string name="triple_multiplicacion_modo1">%1$d * %2$d * %3$d = %4$d</string>
+    <string name="triple_multiplicacion_modo2">%1$d * %2$d * %3$d</string>
+    <string name="triple_division_modo1">%1$d / %2$d / %3$d = %4$d</string>
+    <string name="triple_division_modo2">%1$d / %2$d / %3$d</string>
+    <string name="triple_sum_multiply">(%1$d + %2$d) x %3$d</string>
+    <string name="triple_sub_multiply">(%1$d - %2$d) x %3$d</string>
+    <string name="triple_sum_div">(%1$d + %2$d) / %3$d</string>
+    <string name="triple_sub_div">(%1$d - %2$d) / %3$d</string>
+    <string name="triple_sub">%1$d - %2$d - %3$d</string>
+
+    <!--quick math-->
+    <string name="sum">%1$d + %2$d = %3$d</string>
+    <string name="sub">%1$d - %2$d = %3$d</string>
+    <string name="mult">%1$d x %2$d = %3$d</string>
+    <string name="div">%1$d / %2$d = %3$d</string>
+    <string name="pot">%1$d ^ %2$d = %3$d</string>
+    <string name="raiz">√ %1$d = %2$d</string>
+
+    <!--quick math2-->
+    <string name="sum2">%1$d + %2$d</string>
+    <string name="sub2">%1$d - %2$d</string>
+    <string name="mult2">%1$d x %2$d</string>
+    <string name="div2">%1$d / %2$d</string>
+    <string name="pot2">%1$d ^ %2$d</string>
+    <string name="raiz2">√ %1$d</string>
+
+    <!--quick math score pop up text-->
+    <string name="hey_there_genius">"Eres un genio!"</string>
+    <string name="are_you_even">Puedes hacerlo mejor!</string>
+    <string name="need_more_practice">Necesitas practica!</string>
+    <string name="afk_text">Hay alguien ahi?</string>
+    <string name="azar">Estas contestando al azar?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="testAd">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="appinfobutton">appinfoButton</string>
+    <string name="challenge_your_math_skills">Challenge your math skills</string>
+    <string name="mathtank">MathTank</string>
+    <string name="settingsbutton">settingsButton</string>
+    <string name="what_type_of_shark_are_you_today">What type of shark are you today?</string>
+    <string name="advanced_shark">Advanced Shark</string>
+    <string name="time_trials_shark">Time Trials Shark</string>
+    <string name="high_score">High Scores</string>
+
+    <!--ads-->
+    <string name="quickMathad">ca-app-pub-3697147059223741/1539252155</string>
+    <string name="timeTrialsAd">ca-app-pub-3697147059223741/5392405677</string>
+    <string name="mainMenuad">ca-app-pub-3697147059223741/5739179592</string>
+    <string name="advancedAd">ca-app-pub-3697147059223741/5707390002</string>
+    <string name="scoresAd">ca-app-pub-3697147059223741/2090227205</string>
+    <string name="scoredHowAd">ca-app-pub-3697147059223741/2435225026</string>
+
+    <!--Error-->
+    <string name="something">Sorry something went wrong. Couldn\'t calibrate skill level.</string>
+
+
+    <string name="modo_dificil_pref">Aumenta la dificultad de todos los juegos</string>
+    <string name="modo_supervivencia_pref">Solo puedes tenes un solo error antes de que se acabe el juego</string>
+    <string name="sonido_pref">Activa la musica para todos los juegos</string>
+    <string name="tiempo_pref">Modifica los segundos del contador en los juegos</string>
+    <string name="modos_de_juego_pref">Escoge entre el modo tutorial, normal, dificil, ultra dificil y pesadilla</string>
+    <string name="idiomas_pref">Escoge entre español, itzá y q\'eqchi\'</string>
+    <string name="musica_pref">Cambia la musica que suena mientras juegas</string>
+    <string name="modo_oscuro_pref">Cambia los colores de los juegos</string>
+
+
+
+    <!--Settings texts-->
+    <string name="flashing_text">Useful for good awareness. Should be disabled if you have history of epilepsy.</string>
+
+    <!--high score page-->
+    <string name="highscore">HIGH SCORES</string>
+    <string name="quickMathHighScore">Quick math stats</string>
+    <string name="timeTrialsHighScore">TimeTrials Stats</string>
+    <string name="advancedHighScore">Advanced Stats</string>
+    <string name="qScore">Highest: %1$d of %2$d</string>
+    <string name="aScore">Highest: %1$d of %2$d</string>
+    <string name="timesPlayed">Times played: %1$d</string>
+    <string name="tScore">Highest: %1$d</string>
+    <string name="timeTaken">Time taken: %1$d seconds</string>
+    <string name="aTimeTaken">Time taken: %1$d seconds</string>
+    <string name="learnhowwe"><u>Learn how we score you</u></string>
+
+    <!--scoredhow strings-->
+    <string name="quickmath">Quick Math</string>
+    <string name="timetrials">Timetrials</string>
+    <string name="advanced">Advanced</string>
+    <string name="quickmathrules">You\'re scored based on the difference between quantity, answers correct and wrong. You\'re not scored when: any type of questions are disabled, timer is disabled or kids mode is enabled.</string>
+    <string name="timetrialsrules">Timetrials scoring is based on the how many you got right and within what time. The elo is calculated by dividing how much you scored by how much time you took (in seconds). Same rules apply here.
+    All types of questions need to remain enabled, timer enabled and kids mode disabled.</string>
+    <string name="advancederules">Advanced is a mixture of Quick math and Timetrials. You are scored based off of the difference between total answered, total correct and how much time you took to get there. A score will not be counted as the new high score if either of the validations are not true.</string>
+</resources>

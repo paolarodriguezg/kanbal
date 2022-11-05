@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quickMathBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transit">
+
+    <TextView
+        android:id="@+id/txtPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_marginTop="40dp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/azulitopregunta"
+        android:elevation="20dp"
+        android:fontFamily="@font/permanentmarker_regular"
+        android:gravity="center"
+        android:text="2+2=5"
+        android:textColor="#fff"
+        android:textSize="65sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/stopwatchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Tiempo \ndeshabilitado"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <TextView
+        android:id="@+id/txtPunteo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="188dp"
+        android:text="Punteo: 0"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline10">
+
+        <Button
+            android:id="@+id/botonCorrecto"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:theme="@style/button_three"
+            android:elevation="10dp"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:onClick="botonesVerdaderoFalso"
+            android:textAllCaps="false"
+            android:tag="0"
+            android:text="Correcto"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="405dp" />
+
+        <Button
+            android:id="@+id/botonIncorrecto"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:theme="@style/button_one"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:onClick="botonesVerdaderoFalso"
+            android:tag="1"
+            android:text="Incorrecto"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="345dp" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.53" />
+
+    <TextView
+        android:id="@+id/txtRetroalimentacion"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/reeniebeanie"
+        android:text="@string/go"
+        android:textColor="#fff"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        app:layout_constraintVertical_bias="0.213" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.31" />
+
+
+    <ImageButton
+        android:id="@+id/muteButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:contentDescription="Mute Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="3dp"
+        android:onClick="muteTemp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_volume_up_black_24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="modos_de_juego">
+        <item>Tutorial</item>
+        <item>Facil</item>
+        <item>Normal</item>
+        <item>Dificil</item>
+        <item>Ultra Dificil</item>
+        <item>Pesadilla</item>
+    </array>
+
+    <array name="idiomas">
+        <item>Español</item>
+        <item>Maya Itzá</item>
+        <item>Q\'eqchi\'</item>
+    </array>
+</resources>

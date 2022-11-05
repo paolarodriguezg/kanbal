@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="config"
+        android:title="Configuracion General">
+           <SwitchPreference
+            android:defaultValue="false"
+            android:key="sonido_pref"
+            android:title="Sonido"
+            android:summary="@string/sonido_pref"/>
+        <ListPreference
+            android:entries="@array/idiomas"
+            android:entryValues="@array/idiomas"
+            android:key="idioma_pref"
+            android:title="Cambiar idioma"
+            android:summary="@string/idiomas_pref"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="ajustes"
+        android:title="Ajustes de juego">
+        <ListPreference
+            android:entries="@array/modos_de_juego"
+            android:entryValues="@array/modos_de_juego"
+            android:key="modos_juego_pref"
+            android:title="Modo de juego"
+            android:summary="@string/modos_de_juego_pref"/>
+        <EditTextPreference
+            android:defaultValue="30"
+            android:key="tiempo_pref"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Tiempo"
+            android:summary="@string/tiempo_pref"/>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="modo_supervivencia_pref"
+            android:title="Modo supervivencia"
+            android:summary="@string/modo_supervivencia_pref"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="modo_pesadilla"
+        android:title="Configuracion Modo Pesadilla">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Suma triple"
+            android:key="suma_dificil"
+            />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Resta triple"
+            android:key="resta_dificil"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Multiplicacion triple"
+            android:key="multiplicacion_dificil"/> modos de juego
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Division triple"
+            android:key="division_dificil"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Suma y Multiplicacion"
+            android:key="suma_multiplicacion_dificil"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Resta y Multiplicacion"
+            android:key="resta_multiplicacion_dificil"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Suma y Division"
+            android:key="suma_division_dificil"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Resta y Division"
+            android:key="resta_division_dificil"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Potencias"
+            android:key="potencia_dificil"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Raiz cuadrada"
+            android:key="raiz_dificil"/>
+    </PreferenceCategory>
+</PreferenceScreen>
