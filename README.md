@@ -1,1 +1,1 @@
-"Aplicacion kanbal para ni¤os en idioma espa¤ol, itza y qeqchi" 
+"Aplicacion kanbal para niÂ¤os en idioma espaÃ±ol, itza y qeqchi" 
